@@ -1,0 +1,17 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>stitcher-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="0" y1="12" x2="24" y2="12">
+			<stop offset="0" stop-color="#368dbe"  />
+			<stop offset="0.23" stop-color="#5f2165"  />
+			<stop offset="0.48" stop-color="#f2c016"  />
+			<stop offset="0.79" stop-color="#e48622"  />
+			<stop offset="1" stop-color="#bd3526"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<path id="Layer" class="shp0" d="M19.59 8.52L24 8.52L24 15.44L19.59 15.44L19.59 8.52ZM0 8.85L4.41 8.85L4.41 16.66L0 16.66L0 8.85ZM4.91 7.53L9.3 7.53L9.3 16.1L4.91 16.1L4.91 7.53ZM9.81 8.25L14.19 8.25L14.19 17.06L9.81 17.06L9.81 8.25ZM14.7 6.94L19.09 6.94L19.09 16.1L14.7 16.1L14.7 6.94Z" />
+</svg>

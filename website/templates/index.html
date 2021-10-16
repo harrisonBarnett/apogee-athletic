@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apogee Athletic</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./static/styles.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./static/images/favicon.ico">
+</head>
+
+<body>
+<!-- Swiper -->
+
+<div class="swiper mySwiper swiper-v">
+    <div class="swiper-wrapper">
+        <!-- HERO SLIDE -->
+      <div class="swiper-slide slide-flow"
+      id="section-hero">
+        <div class="title-container">
+          <img class="title" id="title" src="./static/images/apogee-athletic-white-words-outline.png" alt="apogee logo in white">
+        </div>
+      </div>
+
+      <!-- VIDEO SLIDE -->
+      <div class="swiper-slide slide-flow"
+      id="section-video">
+        <div class="section-overlay"></div>
+        <img src="./static/images/play_circle_outline_white_24dp.svg" alt="play button" class="play-button" id="play-btn" onclick="playVideo()">
+        <iframe 
+        class="feature-video" 
+        src="https://www.youtube.com/embed/B-N1yJyrQRY?controls=0" 
+        frameborder="0"></iframe>
+      </div>
+
+        <!-- PRODUCT SHOT SLIDE -->
+      <div class="swiper-slide slide-flow"
+      id="section-product-swiper">
+
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-h">
+              Horizontal Slide 1
+            </div>
+            <div class="swiper-slide swiper-h">
+              Horizontal Slide 2
+              </div>
+            <div class="swiper-slide swiper-h">
+              Horizontal Slide 3
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- SHOP SLIDE -->
+      <div class="swiper-slide slide-flow" id="section-shop">
+        <div id='product-container'>
+          <div id='product-component-1634052000875'
+          class="product"></div>
+          <div id='product-component-1634052049733'
+          class="product"></div>
+        </div>
+      </div>
+
+      <!-- CONTACT SLIDE -->
+      <div class="swiper-slide slide-flow" id="section-contact">   
+        <div
+        class="podcast-container">
+          <h3>listen in</h3>
+        </div>
+
+        <div
+        class="contact-container">
+          <!-- social icons -->
+          <div
+          class='social-container'>
+          <h3>follow</h3>
+            <div
+            class='social-icons-container'>
+              <a href='#'>
+                <img>
+              </a>
+            </div>
+          </div>
+          <!-- comment form -->
+          <div
+          class='comment-container'>
+          <form 
+          class="contact-form"
+          method="POST">
+            <input type="text"
+            name="contact-email">
+            <button type="submit">submit</button>
+          </form>
+          </div>
+        </div>
+
+        <div class="footer"><p>copyright 2021 apogee athletic llc</p></div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="./static/index.js"></script>    
+</body>
+</html>
