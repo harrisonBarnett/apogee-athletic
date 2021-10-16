@@ -229,7 +229,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-#product-container {
+#shop-container {
     position: absolute;
     width: 50%;
     height: 90%;
@@ -237,16 +237,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
 
     background: rgba(255, 255, 255, .5);
     border-radius: 25px;
+}
+#shop-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+}
+#product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 2em;
+
 }
 .product {
     position: relative;
     height: 150px;
     width: 150px;
-    margin-bottom: 2em;
 }
 
 /* end slide four styles====================== */
