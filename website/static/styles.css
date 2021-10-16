@@ -241,6 +241,9 @@ body {
     background: rgba(255, 255, 255, .5);
     border-radius: 25px;
 }
+#shop-container:hover {
+    background: red;
+}
 #shop-title {
     position: absolute;
     top: 0;
