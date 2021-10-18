@@ -282,10 +282,41 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.social-container {
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.social-icon {
+    text-decoration: none;
+}
+.social-icon img {
+    height: 4vw;
+    width: 4vw;
+}
 .contact-form {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.comment-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.comment-container p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.comment-container input {
+    margin-bottom: 2vw;
 }
 .podcast-container {
     position: absolute;
@@ -295,7 +326,6 @@ body {
     width: 50%;
 
     box-shadow: 1px 1px 8px rgba(0,0,0,.15);
-
 }
 .footer {
     position: absolute;
