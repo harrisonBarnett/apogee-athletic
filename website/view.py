@@ -15,8 +15,9 @@ mail = Mail(app)
 
 @view.route("/", methods=["POST", "GET"])
 def index():
-    if request.method=="POST":
-        msg = Message('Website Ping', sender=request.form['contact-email'], recipients=['harrisonbatc@gmail.com'])
-        msg.body = request.form['contact-email'] + ' just pinged you on the Apogee Athletic website'
-        mail.send(msg)
+    #REINITIALIZE BEFORE PUSHING PROD
+    # if request.method=="POST":
+    #     msg = Message('Website Ping', sender=request.form['contact-email'], recipients=['harrisonbatc@gmail.com'])
+    #     msg.body = request.form['contact-email'] + ' just pinged you on the Apogee Athletic website'
+    #     mail.send(msg)
     return render_template("index.html")

@@ -129,7 +129,7 @@ body {
 #section-video {
     position: relative;
     background-image: url('./images/snatch.JPG');
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -246,7 +246,7 @@ body {
 
     background-image: url('./images/graphic-sergio-medball.JPG');
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
 
     box-shadow: -2px -2px 8px rgba(0,0,0,.15);
@@ -295,6 +295,10 @@ body {
 #section-contact {
     position: relative;
     background: white;
+}
+#section-contact h3 {
+    padding: 0;
+    margin: 0;
 }
 .contact-container {
     position: absolute;
@@ -351,8 +355,60 @@ body {
 
     box-shadow: 2px 2px 8px rgba(0,0,0,.15);
 }
+.listen-img-container {
+    width: 24vw;
+    height: 24vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+}
+.listen-img-top {
+    display: flex;
+}
+#listen-img-top-group {
+    display: flex;
+    flex-direction: column;
+}
+.listen-img-container img {
+    padding: 0;
+    margin: 0;
+}
+#podcast-3 {
+    width: 12vw;
+    height: 12vw;
+}
+#podcast-1,
+#podcast-2 {
+    width: 12vw;
+    height: 6vw;
+}
+#podcast-4 {
+    width: 24vw;
+    height: 12vw;
+}
+.listen-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
 .listen-icon {
     text-decoration: none;
+}
+.listen-icon img {
+    height: 4vw;
+    width: 4vw;
+}
+.listen-copy {
+    width: 24vw;
+    margin: 0 auto;
+}
+.listen-copy p {
+    font-size: 1rem;
+    text-align: justify;
 }
 .footer {
     position: absolute;
