@@ -7,6 +7,7 @@ setTimeout(()=> {titleContainer.classList.toggle('on')}, 500);
 function playVideo() {
     const playBtn = document.querySelector('.play-button-on');
     playBtn.className = "play-button-toggle";
+    playBtn.style = 'opacity: 0';
 
     const sectionOverlay = document.querySelector('.section-overlay');
     sectionOverlay.className = "section-overlay-toggle";
